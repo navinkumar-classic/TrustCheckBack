@@ -35,7 +35,7 @@ app.post('/', (req, res) => {
 
     let result = {}
 
-    fetch("https://ftohiq7gj4.execute-api.ap-south-1.amazonaws.com", requestOptions)
+    fetch("https://64zsl8xvtb.execute-api.ap-south-1.amazonaws.com", requestOptions)
     .then((response) => response.text())
     .then((result) => {
         console.log(result)
